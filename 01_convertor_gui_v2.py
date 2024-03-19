@@ -59,8 +59,7 @@ class Converter:
                                           text="To Farenheit",
                                           bg="#009900",
                                           fg=button_fg,
-                                          font=button_font, width=12,
-                                          command=self.to_fahrenheit)
+                                          font=button_font, width=12)
         self.to_farenheit_button.grid(row=0, column=1, padx=5, pady=5)
 
         self.to_help_button = Button(self.button_frame,
@@ -120,17 +119,6 @@ class Converter:
             # do calculation
             self.var_feedback.set("Converting {} to "
                                   "C :)".format(to_convert))
-
-        self.output_answer()
-
-    # check temperature is more than -273 and convert it
-    def to_fahrenheit(self):
-        to_convert = self_temp(-273)
-
-        if to_convert != "invalid":
-            # do calculation
-            self.var_feedback.set("Converting {} to"
-                                  "F :)".foramt(to_convert))
 
         self.output_answer()
 

@@ -1,0 +1,11 @@
+**** Temperature Calculations ****
+
+Generated: 19/03/2024
+
+Here is your calculation history (oldest to newest)...
+
+-273 C° is -459 F°
+-459 F° is -273 C°
+25 F° is -4 C°
+25 C° is 77 F°
+
